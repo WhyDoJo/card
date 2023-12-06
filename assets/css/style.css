@@ -21,6 +21,10 @@ body {
   background-color: #f5e7da;
 }
 
+img {
+  max-width: 100%;
+}
+
 .list-reset {
   margin: 0;
   padding: 0;
@@ -36,6 +40,11 @@ body {
 }
 
 .hero__item {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.hero__card {
   max-width: 323px;
   min-height: 471px;
   background-color: #ffffff;
@@ -45,6 +54,7 @@ body {
 .hero-card__img {
   max-width: 323px;
   min-height: 209px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .hero-card__content {
